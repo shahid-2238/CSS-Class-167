@@ -1,0 +1,59 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+	font-family: 'Antonio', sans-serif;
+	background: url(../img/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	width: 60%;
+	margin: 10% auto;	
+}
+.login-section{
+    background: #311b924f;
+    padding: 25px;
+}
+/* Login section */
+.login-section h2{
+	text-align: center;
+    color: #19efef;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}    
+.login-section p{
+    margin: 20px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    font-size: 18px;
+}    
+
+.form-control{
+    width: 95%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.btn{
+    background: darkblue;
+    color: white;
+    padding: 5px 20px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+}
+
+.btn:hover{
+ 	cursor: pointer;
+ 	box-shadow: 2px 4px 4px burlywood;
+}
